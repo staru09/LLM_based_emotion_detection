@@ -13,8 +13,8 @@ emotion_map = {
 }
 
 # Step 1: Define paths
-BASE_DIR = '/kaggle/input/crema-d/AudioWAV'  # Change if needed
-OUTPUT_DIR = '/kaggle/working/'
+BASE_DIR = 'LLM_based_emotion_detection/crema-d/'
+OUTPUT_DIR = 'LLM_based_emotion_detection/data_processing/'
 OUTPUT_CSV = os.path.join(OUTPUT_DIR, 'cremad.csv')
 
 # Step 2: Parse filenames and collect metadata

@@ -5,9 +5,9 @@ from pathlib import Path
 
 random.seed(42)
 
-DATASET_ROOT = '/input'
+DATASET_ROOT = 'LLM_based_emotion_detection/indian_emotion_dataset'
 SPLITS = {'train': 0.8, 'validation': 0.1, 'test': 0.1}
-OUTPUT_DIR = './working/'
+OUTPUT_DIR = 'LLM_based_emotion_detection/data_processing/'
 
 all_data = []
 for emotion in os.listdir(DATASET_ROOT):

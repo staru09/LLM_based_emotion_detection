@@ -13,8 +13,8 @@ emotion_map = {
     '08': 'surprised'
 }
 
-BASE_DIR = 'main_data_set' 
-OUTPUT_DIR = '/working/'
+BASE_DIR = 'LLM_based_emotion_detection/ravdess/' 
+OUTPUT_DIR = 'LLM_based_emotion_detection/data_processing/'
 OUTPUT_CSV = os.path.join(OUTPUT_DIR, 'ravdess.csv')
 
 metadata = []
