@@ -14,8 +14,8 @@ emotion_map = {
 }
 
 # Base directory containing EMO-DB `.wav` files
-BASE_DIR = '/emodb'  
-OUTPUT_DIR = 'working/'
+BASE_DIR = 'LLM_based_emotion_detection/emodb'  
+OUTPUT_DIR = 'LLM_based_emotion_detection/data_processing/'
 OUTPUT_CSV = os.path.join(OUTPUT_DIR, 'emodb.csv')
 
 # Step 1: Parse files and collect metadata
